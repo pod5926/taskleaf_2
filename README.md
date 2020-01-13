@@ -1,4 +1,7 @@
 # README
+1/13
+JavaScript が動作しないためRails verを変更
+動作確認
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
