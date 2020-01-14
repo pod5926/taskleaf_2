@@ -16,4 +16,5 @@
 // const imagePath = (name) => images(name, true)
 
 //console.log('Hello World from Webpacker')
-import 'taskleaf/hello';
+//import 'taskleaf/hallo';
+import 'taskleaf/hallo_vue';
