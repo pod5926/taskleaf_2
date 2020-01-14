@@ -9,7 +9,7 @@ document.addEventListener('turbolinks:load', function() {
         });
     });
 });
-/*削除
+/*削除*/
 document.addEventListener('turbolinks:load', function() {
     document.querySelectorAll('.delete').forEach(function(a) {
         a.addEventListener('ajax:success', function() {
@@ -19,4 +19,3 @@ document.addEventListener('turbolinks:load', function() {
         });
     });
 });
-*/

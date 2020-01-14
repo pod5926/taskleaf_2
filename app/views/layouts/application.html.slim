@@ -7,8 +7,9 @@ html
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  body
-    .app-title.navbar.navbar-expand-md.navbar-light.bg-light
+    /= javascript_pack_tag 'application'
+  body.bg-light
+    .app-title.navbar.navbar-expand-md.navbar-dark.bg-dark
       .navbar-brand Taskleaf
 
       ul.navbar-nav.ml-auto
